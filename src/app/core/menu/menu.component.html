@@ -1,0 +1,149 @@
+<div class="ng-star-inserted" style="height: 100vh; overflow: hidden;">
+    <div class="min-h-screen flex relative lg:static surface-ground">
+        <div id="sidebar" class="surface-section h-screen hidden lg:block flex-shrink-0 absolute
+             lg:static left-0 top-0 z-1 border-right-1 surface-border select-none" style="width: 280px;">
+
+            <div class="flex flex-column h-full">
+
+                <div class="flex align-items-center justify-content-center px-5 flex-shrink-0" style="height: 60px;">
+                    <img src="assets/images/primeng-logo-light.svg" alt="Image" height="40">
+                </div>
+
+                <div class="overflow-y-auto">
+                    <ul class="list-none p-3 m-0">
+
+                        <li>
+                            <div pRipple="" pStyleClass="@next" enterClass="hidden" enterActiveClass="slidedown"
+                                leaveToClass="hidden" leaveActiveClass="slideup" class="p-ripple p-element p-3 flex align-items-center 
+                                justify-content-between text-600 cursor-pointer">
+                                <span class="font-medium">GROUP 1</span>
+                                <i class="pi pi-chevron-down"></i>
+                                <span class="p-ink"
+                                    style="height: 247px; width: 247px; top: -101.5px; left: 57.5px;"></span>
+                            </div>
+
+                            <ul class="list-none p-0 m-0 overflow-hidden">
+                                <li>
+                                    <a pRipple=""
+                                        class="p-ripple p-element flex align-zitems-center cursor-pointer p-3 
+                                        border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                                        <i class="pi pi-chart-line mr-2"></i>
+                                        <span class="font-medium">Item 1</span><span class="p-ink"></span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a pRipple="" pStyleClass="@next" enterClass="hidden" enterActiveClass="slidedown"
+                                        leaveToClass="hidden" leaveActiveClass="slideup" class="p-ripple p-element 
+                                        flex align-items-center cursor-pointer p-3 border-round text-700 
+                                        hover:surface-100 transition-duration-150 transition-colors">
+                                        <i class="pi pi-chart-line mr-2"></i>
+                                        <span class="font-medium">Group Expand 1</span>
+                                        <i class="pi pi-chevron-down ml-auto"></i>
+                                        <span class="p-ink"
+                                            style="height: 247px; width: 247px; top: -102.5px; left: 68.5px;"></span>
+                                    </a>
+                                    <ul
+                                        class="list-none py-0 pl-3 pr-0 m-0 overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
+                                        <li>
+                                            <a pRipple="" pStyleClass="@next" enterClass="hidden"
+                                                leaveActiveClass="slideup" enterActiveClass="slidedown"
+                                                leaveToClass="hidden"
+                                                class="p-ripple p-element flex align-items-center cursor-pointer 
+                                                p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                                                <i class="pi pi-chart-line mr-2"></i>
+                                                <span class="font-medium">Group Expand 2</span>
+                                                <i class="pi pi-chevron-down ml-auto"></i>
+                                                <span class="p-ink"></span></a>
+                                            <ul
+                                                class="list-none py-0 pl-3 pr-0 m-0 hidden overflow-y-hidden transition-all transition-duration-400 transition-ease-in-out">
+                                                <li>
+                                                    <a pRipple=""
+                                                        class="p-ripple p-element flex align-items-center cursor-pointer p-3 border-round 
+                                                        text-700 hover:surface-100 transition-duration-150 transition-colors">
+                                                        <i class="pi pi-chart-line mr-2"></i>
+                                                        <span class="font-medium">Item 2</span>
+                                                        <span class="p-ink"></span></a>
+                                                </li>
+                                                <li>
+                                                    <a pRipple=""
+                                                        class="p-ripple p-element flex align-items-center cursor-pointer p-3 border-round
+                                                         text-700 hover:surface-100 transition-duration-150 transition-colors"><i
+                                                            class="pi pi-chart-line mr-2"></i>
+                                                        <span class="font-medium">Item 3</span>
+                                                        <span class="p-ink"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a pRipple="" class="p-ripple p-element flex align-items-center cursor-pointer p-3 border-round 
+                                                text-700 hover:surface-100 transition-duration-150 transition-colors">
+                                                <i class="pi pi-chart-line mr-2"></i><span class="font-medium">Item
+                                                    4</span>
+                                                <span class="p-ink"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-auto">
+                    <hr class="mb-3 mx-3 border-top-1 border-none surface-border">
+                    <a pRipple=""
+                        class="p-ripple p-element m-3 flex align-items-center cursor-pointer p-3 border-round text-700 hover:surface-100 transition-duration-150 transition-colors">
+                        <p-avatar icon="pi pi-user" shape="circle" [style]="{ 'color': '#ffffff'}"
+                            class="md:pr-2 sm:pr-2">
+                        </p-avatar>
+                        <span class="font-medium">Username</span>
+                        <span class="p-ink"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="min-h-screen flex flex-column relative flex-auto">
+            <div class="flex justify-content-between align-items-center px-5
+             surface-0 border-bottom-1 surface-border relative lg:static" style="height: 60px;">
+                <div class="flex">
+                    <a pRipple="" [hideOnOutsideClick]="true" pStyleClass="#sidebar" enterClass="hidden"
+                        enterActiveClass="fadeinleft" leaveToClass="hidden" leaveActiveClass="fadeoutleft"
+                        class="p-ripple p-element cursor-pointer block lg:hidden text-700 mr-3">
+                        <i class="pi pi-bars text-4xl"></i>
+                        <span class="p-ink"></span>
+                    </a>
+                </div>
+                <a pRipple="" [hideOnOutsideClick]="true" pStyleClass="@next" enterClass="hidden"
+                    enterActiveClass="fadein" leaveToClass="hidden" leaveActiveClass="fadeout"
+                    class="p-ripple p-element cursor-pointer block lg:hidden text-700">
+                    <i class="pi pi-ellipsis-v text-2xl"></i>
+                    <span class="p-ink"></span>
+                </a>
+                <ul
+                    class="list-none p-0 m-0 hidden lg:flex lg:align-items-center select-none lg:flex-row surface-section
+                     border-1 lg:border-none surface-border right-0 top-100 z-1 shadow-2 lg:shadow-none absolute lg:static">
+                    <li class="border-top-1 surface-border lg:border-top-none">
+                        <a pRipple=""
+                            class="p-ripple p-element flex p-3 lg:px-3 lg:py-2 align-items-center hover:surface-100 font-medium border-round cursor-pointer transition-duration-150 transition-colors">
+                            <p-avatar icon="pi pi-user" shape="circle" [style]="{ 'color': '#ffffff'}"
+                                class="md:pr-2 sm:pr-2">
+                            </p-avatar>
+                            <div class="block lg:hidden">
+                                <div class="text-900 font-medium">Username</div>
+                                <span class="text-600 font-medium text-sm">Info</span>
+                            </div>
+                            <span class="p-ink"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-5 flex flex-column flex-auto">
+                <div class="border-2 border-dashed surface-border border-round surface-section flex-auto">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
